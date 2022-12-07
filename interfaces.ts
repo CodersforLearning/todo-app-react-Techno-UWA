@@ -1,9 +1,15 @@
 export interface Task {
-    taskName: string;
-    deadline: number;
+    "id": number;
+    "task": string;
+    "complete": boolean;
 }
 
 export interface TaskNotes {
-    taskName: string;
-    complete: boolean;
+    "id": number;
+    "task": string;
+    "complete": boolean;
+}
+
+export interface ToDoFormInterface {
+    
 }
